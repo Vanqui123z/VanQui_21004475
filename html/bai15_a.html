@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <fieldset>
+        <legend>Your message:</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td>
+                    <input  type="text" name="txtTo"  id="emailTo" 
+                            readonly="readonly" size="20" value="Example Cafe"
+                ></td>
+            </tr>
+                <td><label for="emailFrom">Your Email</label></td>
+                <td><input type="text" name="txtFrom" id="emailFrom" size="20" maxlength="250" tabindex="1"></td>
+            <tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+    
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>How you found us:</legend>
+        <tr>
+            <td>How did you hear of us</td>
+            <td>
+                <select style=" margin-left:10px;">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <br><td>Newsletter</td>
+            <td><input type="checkbox" style="margin-left: 93px;"></td>
+            <label for="checkbox">Ensure this box checkde if you would like ti receive email uplate</label>
+            
+        </tr>
+    </fieldset>
+    <input type="submit" value="Send Message">
+</body>
+</html>
